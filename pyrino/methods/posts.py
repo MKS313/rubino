@@ -3,7 +3,7 @@ from random import randint
 
 class Posts:
     def __init__(self, maker: Maker) -> None:
-        self.Make = maker
+        self.make = maker
 
     async def addPost(self,
         post_type: str,
